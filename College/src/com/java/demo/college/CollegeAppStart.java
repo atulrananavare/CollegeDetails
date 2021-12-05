@@ -1,6 +1,5 @@
 package com.java.demo.college;
 
-import java.util.Scanner;
 
 public class CollegeAppStart {
 	
@@ -19,10 +18,10 @@ public class CollegeAppStart {
 		
 		
 		
-		Scanner sc = new Scanner(System.in);
+		/*Scanner sc = new Scanner(System.in);
 		System.out.println("Enter STudent Name : ");
-		String name = sc.next();
-		Student st1 = new Student(101,name,298333.44, ad1, computer,78,81,82);
+		String name = sc.next();*/
+		Student st1 = new Student(101,"AAA",298333.44, ad1, computer,78,81,82);
 		Student st2 = new Student(102,"BBBB",828333.44, ad2, it,78,48,56);
 		Student st3 = new Student(103,"CCCC",278333.44, ad3, computer,56,88,34);
 		Student st4 = new Student(104,"DDDD",258333.44, ad4, it,55,88,82);
@@ -46,7 +45,7 @@ public class CollegeAppStart {
 		// find out - dept wise topper
 		// failed/ passed student -- college result --> avag mark --> avag -- math-
 		
-		
+	
 		
 		
 	}
